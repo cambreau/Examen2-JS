@@ -5,7 +5,7 @@ let outputHTML = document.getElementById("output");
 let charCountHTML = document.getElementById("charCount");
 const resetBtnHTML = document.getElementById("resetBtn");
 
-// Compteur Caractere
+// Compteur Caracteres
 /**
  * Fonction qui compte les caracteres
  * @param {event} event
@@ -39,7 +39,7 @@ function handleSubmit(event) {
 
 document.getElementById("nameForm").addEventListener("submit", handleSubmit);
 
-//Reset Form
+// Reset Form
 /* Reinitialise le formulaire
  */
 const resetForm = () => {
